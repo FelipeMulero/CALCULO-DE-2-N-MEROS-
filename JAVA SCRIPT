@@ -1,0 +1,18 @@
+<script>
+ function calc(n1,n2)
+{
+ r = parseFloat (n1) + parseFloat (n2);
+ calculadora.txtsoma.value=r;
+ r = parseFloat (n1) - parseFloat (n2);
+ calculadora.txtsubtracao.value=r;
+ r = parseFloat (n1) * parseFloat (n2);
+ calculadora.txtmultiplicacao.value=r;
+if (n2 == 0)
+calculadora.txtdivisao.value="Não Existe Divisão por Zero !!";
+else
+{
+ r = parseFloat (n1) / parseFloat (n2);
+ calculadora.txtdivisao.value=r;
+}
+}
+       </script>
